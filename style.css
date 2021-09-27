@@ -1,0 +1,62 @@
+html {
+  font-size: 100%;
+  font-family: var(--primary-font);
+}
+body {
+  background: rgb(227, 240, 227);
+  background: linear-gradient(
+    0deg,
+    rgba(227, 240, 227, 1) 39%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header,
+main,
+footer {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: calc(2 * var(--white-space));
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.swatches li {
+  border-radius: 50%;
+  margin-right: 2vw;
+  height: 10vw;
+  width: 10vw;
+}
+
+.color-swatch-1 {
+  background: #c96d79;
+}
+
+.color-swatch-2 {
+  background: #d28b90;
+}
+
+.color-swatch-3 {
+  background: #f2d2e6;
+}
+
+.color-swatch-4 {
+  background: #cccae1;
+}
+
+.color-swatch-5 {
+  background: #bde3f2;
+}
+.color-swatch-6 {
+  background: #e3f0e3;
+}
+.color-swatch-7 {
+  background: #e8ecd4;
+}
